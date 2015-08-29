@@ -1,4 +1,4 @@
-require_relative 'game'
+require 'studio_game/game'
 
  module StudioGame
 
