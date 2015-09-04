@@ -1,9 +1,9 @@
-#!/Users/rhnorment/.rbenv/version ruby
+#!/usr/bin/env ruby
 
-require '../lib/studio_game/game'
-require '../lib/studio_game/player'
-require '../lib/studio_game/clumsy_player'
-require '../lib/studio_game/berserk_player'
+require_relative '../lib/studio_game/game'
+require_relative '../lib/studio_game/player'
+require_relative '../lib/studio_game/clumsy_player'
+require_relative '../lib/studio_game/berserk_player'
 
 knuckleheads = StudioGame::Game.new('Knuckleheads')
 
